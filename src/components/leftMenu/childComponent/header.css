@@ -1,0 +1,54 @@
+.leftMenuHeader{
+    background: #15181c;
+    padding: 3px 10px;
+    line-height: 34px;
+    color: #eff0f4;
+    font-size: 18px;
+    font-weight: bold;
+    height: 5vh;
+}
+
+
+.taskDiv{
+    background-color: #cfd8dc;
+    text-align: center;
+    height: 5vh;
+}
+.deneme{
+    line-height: 18px;
+    border-radius: 0;
+    margin-right: 1px;
+    min-width: 150px;
+    cursor: default;
+    pointer-events: none;
+    user-select: none;
+    padding: 0px 10px;
+    margin: 0px;
+    line-height: 22px;
+    vertical-align: top;
+    height: 27px;
+    margin-top: 3px;
+    border-radius: 5px;
+    width: auto;
+    opacity: 0.8;
+    transition: 0.3s;
+    text-align: center;
+    background: #fff;
+    color: #828789;
+}
+.taskButton{
+    padding: 0px 10px;
+    margin: 0px;
+    line-height: 22px;
+    vertical-align: top;
+    height: 27px;
+    margin-top: 3px;
+    border-radius: 5px;
+    width: auto;
+    opacity: 0.8;
+    transition: 0.3s;
+    text-align: center;
+    background: #fff;
+    color: #828789;
+}
+

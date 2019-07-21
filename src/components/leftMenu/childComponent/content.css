@@ -1,0 +1,47 @@
+h2{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.current {
+    border: 2px solid #ffc42e;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    color: black;
+    border: 2px solid #ffc42e;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 2px 0;
+}
+
+.au-target{
+    margin-top: 3px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    color: #ffc42e;
+    line-height: 32px;
+    text-align: center;
+
+}
+.task{
+    font-size: smaller;
+}
+.check_button{
+    height: 32px;
+    padding: 0 10px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: 2px solid #3eb169;
+    background: #56bb7c;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
