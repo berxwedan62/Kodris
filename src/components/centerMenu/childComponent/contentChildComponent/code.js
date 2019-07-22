@@ -33,7 +33,7 @@ import React, { Component } from 'react'
                     </div>
                     {
                         isVisible?
-                        <div className="card-body">
+                        <div className="card-body" style={{overflowY:"scroll",height:"20vh"}}>
                             {code.map(codes=>
                                 <p style={{marginTop:-20}} className="card-text">{codes}</p>
                             )}

@@ -1,19 +1,35 @@
 import React, { Component } from 'react'
-import Code from "./code"
+import Codee from "./code"
+import ProjectConsumer from "../../../../context";
 
  class Codes extends Component {
     
     render() {
-        const {codes} = this.props;  
         return (
-            <div>
-               {codes.map(codes=>
-                    <Code
-                        key={codes.id}
-                        code={codes.codem}
-                        isim={codes.isim}/>
-               )}  
-            </div>
+            <ProjectConsumer>
+            {
+                value => {
+                    const {Code} = value;
+                    console.log(Code);
+                    return(
+                        <div>
+                             {
+                                Code.map(code => {
+                                   return(
+                                    <Codee
+                                    key={code.id}
+                                    code={code.codem}
+                                    isim={code.isim}/>
+                                    
+                                   ) 
+                                })
+                            }
+                        </div>
+                    )
+                    
+                }
+            }
+        </ProjectConsumer>
         )
     }
 }
