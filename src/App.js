@@ -4,6 +4,7 @@ import React from 'react';
 import MainHeader from "./components/mainHeader/mainHeader"
 import LeftMenu from "./components/leftMenu/main/leftMenu"
 import CenterMenu from "./components/centerMenu/main/centerMenu"
+import RightMenu from "./components/rightMenu/main/rightMenu"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class App extends React.Component{
     
@@ -13,7 +14,10 @@ class App extends React.Component{
                 <MainHeader/>
                 <LeftMenu/>
                 <CenterMenu/>
-                <Router>
+                <RightMenu/>
+                {
+                    /* 
+                    <Router> 
                     <ul>
                         <li>
                             <Link to="/components/mainHeader/mainHeader">MainHeader</Link>
@@ -30,6 +34,9 @@ class App extends React.Component{
                     <Route path="/components/leftMenu/main/leftMenu" component={LeftMenu} />
                     <Route path="/components/centerMenu/main/centerMenu" component={CenterMenu} />
                 </Router>
+                    */
+                }
+                
             </div>
         )
     }
