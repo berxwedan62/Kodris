@@ -1,7 +1,8 @@
+//Sol Form Ana Component
 import React, { Component } from 'react'
 import  './leftMenu.css';
-import Header from "./childComponent/header"
-import Content from "./childComponent/content"
+import Header from "../header/header"
+import Content from "../content/content"
 class leftMenu extends Component {
     render() {
         return (

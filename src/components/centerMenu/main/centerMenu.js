@@ -1,7 +1,8 @@
+//Orta Form Ana Component
 import React, { Component } from 'react'
 import  './centerMenu.css';
-import Header from "./childComponent/header"
-import Content from "./childComponent/content"
+import Header from "../header/header"
+import Content from "../content/content"
 class centerMenu extends Component {
     render() {
         const {code} = this.props;

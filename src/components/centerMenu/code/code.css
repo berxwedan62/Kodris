@@ -1,0 +1,29 @@
+ul.content{
+    display: none;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 205px;
+    background: #c6cfd3;
+    background: #cfd8dd;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+div.accordion li span:first-child {
+    background: #b18647;
+    background: #ec7c67;
+    border-radius: 3px;
+    padding: 0 5px;
+    padding-bottom: 1px;
+    cursor: move;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: text-top;
+}

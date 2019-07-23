@@ -1,6 +1,7 @@
+// code componentini kapsayan bir list code componenti
 import React, { Component } from 'react'
-import Codee from "./code"
-import ProjectConsumer from "../../../../context";
+import Code from "../code/code"
+import ProjectConsumer from "../../../context";
 
  class Codes extends Component {
     
@@ -9,17 +10,17 @@ import ProjectConsumer from "../../../../context";
             <ProjectConsumer>
             {
                 value => {
-                    const {Code} = value;
-                    console.log(Code);
+                    const {code} = value;
+                    console.log(code);
                     return(
                         <div>
                              {
-                                Code.map(code => {
+                                code.map(code => {
                                    return(
-                                    <Codee
+                                    <Code
                                     key={code.id}
-                                    code={code.codem}
-                                    isim={code.isim}/>
+                                    code={code.codes}
+                                    name={code.name}/>
                                     
                                    ) 
                                 })

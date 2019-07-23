@@ -1,5 +1,7 @@
+
+// Kodlar editör  ve console alanlarının ana componenti
 import React, { Component } from 'react'
-import Codes from "./contentChildComponent/codes"
+import Codes from "../codes/codes"
 import ReactAce from "react-ace-editor"
 class content extends Component {
     state = {

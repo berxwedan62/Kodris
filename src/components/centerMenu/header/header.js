@@ -1,3 +1,4 @@
+// Orta Form Ana Başlık Faklı kaydet alanı
 import React, { Component } from 'react'
 import "./header.css"
 class header extends Component {

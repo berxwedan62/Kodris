@@ -1,3 +1,4 @@
+//Ana Başlık Kodris yazan alan
 import React from 'react';
 import  './mainHeader.css';
 class MainHeader extends React.Component{

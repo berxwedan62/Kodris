@@ -5,11 +5,11 @@ const ProjectContext = React.createContext();
 
 export class ProjectProvider extends React.Component{
     state = {
-        Code:[
+        code:[
           {
             id:1,
-            isim:"Genel Komutlar",
-            codem:[
+            name:"Genel Komutlar",
+            codes:[
                 "print",
                 "alert",
                 "confirm",
@@ -46,8 +46,8 @@ export class ProjectProvider extends React.Component{
           },
           {
             id:2,
-            isim:"Kontroller",
-            codem:[
+            name:"Kontroller",
+            codes:[
                 "if",
                 "if..else",
                 "if..elif",
@@ -63,8 +63,8 @@ export class ProjectProvider extends React.Component{
           },
           {
             id:3,
-            isim:"Operatörler",
-            codem:[
+            name:"Operatörler",
+            codes:[
                 "and",
                 "or",
                 "not",

@@ -1,3 +1,4 @@
+//Sol Menü Görev açıklamalarının yapıldığı alan
 import React, { Component } from 'react'
 import "./content.css"
 class content extends Component {
