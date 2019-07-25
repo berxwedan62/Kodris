@@ -3,10 +3,11 @@
 import React, { Component } from 'react'
 import Header from "../header/header"
 import Content from "../content/content"
+import "./rightMenu.css"
 class rightMenu extends Component {
     render() {
         return (
-            <div className="col-md-4">
+            <div className="col-md-4 right-div">
                 <Header/>
                 <Content/>
             </div>

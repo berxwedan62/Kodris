@@ -1,0 +1,22 @@
+.console-div{
+    border-style:ridge;
+    padding-right:0;
+    padding-left:0;
+    height: 15vh;
+}
+
+.console-title{
+    background-color:black;
+    padding-left:inherit;
+    padding-right:inherit;
+}
+
+.console-content{
+    background-color:white;
+}
+
+.console-title-button{
+    background-color:black;
+    width: 15vh;
+    min-width:141px;
+}

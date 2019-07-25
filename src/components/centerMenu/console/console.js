@@ -1,6 +1,7 @@
 
 // Kodlar editör  ve console alanlarının ana componenti
 import React, { Component } from 'react'
+import "./console.css"
 class console extends Component {
     state = {
         isVisible:false
@@ -18,28 +19,30 @@ class console extends Component {
     render() {
         const {isVisible} = this.state;
         return (
-            <div className="col-md-12 row" >
-                <div className="col-md-12" style={{borderStyle:"ridge",paddingLeft:0,paddingRight:0}}>
-                    <div style={{backgroundColor:"black"}}>
+            <div className="col-md-12 console-title">
+                <div className="col-md-12">
                     {
                         isVisible?
                         <span onClick={this.onClickEvent.bind(this)} className="fas fa-caret-square-up"></span> :
                         <span onClick={this.onClickEvent.bind(this)} className="fas fa-caret-square-down"></span>
                     }
                     
-                       <a href="javascript:void(0)" style={{backgroundColor:"black"}} class="au-target btn tip mode with-icon bottomMode console selected" au-target-id="131"><span class="title fa fa-terminal"></span> <span class="title au-target" t="ui.bottombar.console_button" au-target-id="132">Konsol</span> </a>
-                       <a  href="javascript:void(0)" style={{backgroundColor:"black",width:"200px"}}  class="au-target btn tip mode with-icon bottomMode breakpoints" au-target-id="133"><span class="title fab fa-flickr"></span> <span class="title au-target" t="ui.bottombar.breakpoints_button" au-target-id="134">Kesim Noktaları</span> </a>
+                       <a href="javascript:void(0)" class="console-title-button au-target btn tip mode with-icon bottomMode console selected" au-target-id="131"><span class="title fa fa-terminal"></span> <span class="title au-target" t="ui.bottombar.console_button" au-target-id="132">Konsol</span> </a>
+                       <a  href="javascript:void(0)"   class="console-title-button au-target btn tip mode with-icon bottomMode breakpoints" au-target-id="133"><span class="title fab fa-flickr"></span> <span class="title au-target" t="ui.bottombar.breakpoints_button" au-target-id="134">Kesim Noktaları</span> </a>
                 
                     </div>
+                   
                     
                     {
                         isVisible?
+                        <div className="col-md-12 console-div console-content">
+                                sadas
                         <div>
-                            dfgdf
-                        </div>:null
+                            
+                        </div></div>:null
                     }
                     
-                </div>
+                
             </div>
         )
     }

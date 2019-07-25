@@ -7,8 +7,8 @@ class header extends Component {
             <div className="mode-bar">
                 <mode-bar class="au-target col-md-12" au-target-id="183">
                     <a title="Projelerime Dön" className="btn tip mode pull-left to-dashboard au-target"  au-target-id="33" href="#/"><span className="title icon fas fa-arrow-circle-left"></span> </a>
-                    <input type="text" className="title" value="Merhaba Dünya"></input> 
-                    <a title="Projenize bir isim verin!" className="btn mode with-icon pull-left circle" href="javascript:void(0)"><span  className="title fa fa-pencil"></span> </a>
+                    <input type="text" className="pull-left" value="Merhaba Dünya"></input> 
+                    <a title="Projenize bir isim verin!" className="btn mode with-icon pull-left circle" href="javascript:void(0)"><span  className="title fa fa-edit"></span> </a>
                     <a className="btn tip mode au-target"  href="javascript:void(0)"  id="mode-design" au-target-id="35"><span className="title au-target" t="ui.modebar.design_button" au-target-id="36">TASARIM</span> </a>
                     <a className="btn tip mode au-target selected" href="javascript:void(0)" id="mode-code" au-target-id="37"><span className="title au-target" t="ui.modebar.code_button" au-target-id="38">KOD</span> </a>
                  </mode-bar>
