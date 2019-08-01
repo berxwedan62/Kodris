@@ -1,6 +1,6 @@
 // code componentini kapsayan bir list code componenti
 import React, { Component } from 'react'
-import Code from "../code/code"
+import Code from "../codeItem/codeItem"
 import ProjectConsumer from "../../../context";
 
  class Codes extends Component {

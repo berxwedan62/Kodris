@@ -1,7 +1,7 @@
 
 // Kodlar editör  ve console alanlarının ana componenti
 import React, { Component } from 'react'
-import Codes from "../codes/codes"
+import Codes from "../codeItemArray/codeItemArray"
 import ReactAce from "../reactAce/reactAce"
 import Console from "../console/console"
 import "./content.css"

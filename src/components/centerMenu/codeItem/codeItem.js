@@ -1,6 +1,6 @@
 // Genel Komutlar vb. kodların gösterildiği Component
 import React, { Component } from 'react'
-import "./code.css"
+import "./codeItem.css"
 // class componentlerde props işlemleri için this.props.attributename olarak erişilir.
 
 
