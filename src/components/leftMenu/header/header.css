@@ -6,6 +6,7 @@
     font-size: 18px;
     font-weight: bold;
     height: 5vh;
+    min-height: 40px;
 }
 
 
@@ -13,12 +14,16 @@
     background-color: #cfd8dc;
     text-align: center;
     height: 5vh;
+    min-height: 31px;
 }
-.deneme{
+
+.task{
+    
     line-height: 18px;
     border-radius: 0;
     margin-right: 1px;
     min-width: 150px;
+    min-height: 100px;
     cursor: default;
     pointer-events: none;
     user-select: none;

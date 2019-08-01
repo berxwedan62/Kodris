@@ -14,7 +14,10 @@ h2{
     border-radius: 5px;
     margin-bottom: 5px;
     padding: 2px 0;
+    height: 71px;
 }
+
+
 
 .au-target{
     margin-top: 3px;
@@ -27,9 +30,12 @@ h2{
     text-align: center;
 
 }
+
 .task{
     font-size: smaller;
+    height: 30px;
 }
+
 .check_button{
     height: 32px;
     padding: 0 10px;

@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import ReactAce from "react-ace-editor"
 
-class reactAce extends React.Component{
+class reactAce extends Component{
+    
     render(){
         return(
             <div className="col-md-7" style={{borderStyle:"ridge"}}>
@@ -12,6 +13,7 @@ class reactAce extends React.Component{
                     style={{ height: '400px' }}
                     ref={instance => { this.ace = instance; }} // Let's put things into scope
                 />
+
                 </div>
         )
     }

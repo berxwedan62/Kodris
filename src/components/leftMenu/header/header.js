@@ -10,7 +10,7 @@ class header extends Component {
                 </div>
                 <div className="taskDiv col-md-12">
                     <a href="true" title="Önceki Görev"><span className="fa fa-caret-left taskButton"></span> </a>
-                    <a href="true"className="deneme"><span>Görev: Merhaba Dünya</span> </a>
+                    <a href="true" className="task" style={{verticalAlign:"sub"}}><span>Görev: Merhaba Dünya</span> </a>
                     <a href="true" title="Önceki Görev" ><span className="fa fa-caret-right taskButton"></span> </a>
                 </div>
             </div>

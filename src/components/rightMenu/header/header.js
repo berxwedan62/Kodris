@@ -10,7 +10,7 @@ class header extends Component {
                     <a className="col-md-1 btn mode with-icon  circle pull-left start run-circle au-target " au-target-id="41">
                         <span className="fa fa-chevron-circle-right fa-xs rigth-header-btn"></span>
                     </a>
-                    <a className="col-md-1 btn mode pull-left run au-target"  au-target-id="42">
+                    <a className="col-md-2 btn mode pull-left run au-target"  au-target-id="42">
                         <span className="title au-target rigth-header-btn"  au-target-id="43">ÇALIŞTIR</span>
                     </a>
                     <a title="Devam..." className="col-md-1 btn mode with-icon pull-left merge-right continue au-target disabled" au-target-id="45">
@@ -22,7 +22,7 @@ class header extends Component {
                     <a title="Sayfa Ekle..." className="col-md-1 btn mode with-icon add-page au-target"  au-target-id="47">
                         <span className="title fa fa-plus fa-xs rigth-header-btn"></span>
                     </a>
-                    <a title="Sayfalar" className="col-md-3 au-target btn mode pages" au-target-id="48">
+                    <a title="Sayfalar" className="col-md-2 au-target btn mode pages" au-target-id="48">
                         <span className="title rigth-header-btn">sayfa1</span>
                         <span className="title fa fa-caret-down fa-xs rigth-header-btn"></span>
                     </a>

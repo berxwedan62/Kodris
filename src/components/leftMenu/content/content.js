@@ -28,7 +28,7 @@ class content extends Component {
                                 <span className="au-target fa fa-arrow-right col-md-1" au-target-id="212"></span>
                             </div>
                             <div className="col-sm-8">
-                                <p  className="col-sm-12 task" au-target-id="213"><code>print("Merhaba Dünya")</code> kodunu ekleyelim.</p>
+                                <span  className="col-sm-12 task" au-target-id="213"><code>print("Merhaba Dünya")</code> kodunu ekleyelim.</span>
                             </div>
                             <div className="col-sm-2">
                                 <div className="col-md-2 check_button"  au-target-id="214">DEVAM</div>
@@ -44,13 +44,7 @@ class content extends Component {
                                 <span className="au-target fa fa-lock" au-target-id="212"></span>
                             </div>
                             <div className="col-sm-10">
-                                <p  className="col-sm-12 task" au-target-id="213">	Çalıştır butonuna basıp uygulamamızı deneyelim.</p>
-                            </div>
-                        </div>
-                        <hr/>
-                        <div className="row">
-                            <div className="col-sm-12">
-                                <p  className="col-sm-12 task" au-target-id="213">	Uygulama çalıştığında konsoldaki "Merhaba Dünya" ifadesini görmelisin.</p>
+                                <span  className="col-sm-12 task" au-target-id="213">	Çalıştır butonuna basıp uygulamamızı deneyelim.<br/>Uygulama çalıştığında konsoldaki "Merhaba Dünya" ifadesini görmelisin.</span>                         
                             </div>
                         </div>
                     </div>

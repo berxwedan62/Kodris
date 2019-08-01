@@ -13,9 +13,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-ul {
-    list-style: none;
-}
+
 div.accordion li span:first-child {
     background: #b18647;
     background: #ec7c67;
@@ -26,4 +24,11 @@ div.accordion li span:first-child {
     font-weight: bold;
     font-size: 12px;
     vertical-align: text-top;
+}
+
+.code-main-div{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 25vh;
 }

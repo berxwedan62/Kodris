@@ -9,14 +9,22 @@
     background-color:black;
     padding-left:inherit;
     padding-right:inherit;
+    min-width: 200px;
 }
 
 .console-content{
     background-color:white;
 }
 
-.console-title-button{
+.console-title-button2{
     background-color:black;
     width: 15vh;
-    min-width:141px;
+    min-width:200px;
 }
+
+.console-title-button1{
+    background-color:black;
+    width: 15vh;
+    min-width:100px;
+}
+

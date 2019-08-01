@@ -1,5 +1,6 @@
 // Genel Komutlar vb. kodların gösterildiği Component
 import React, { Component } from 'react'
+import "./code.css"
 // class componentlerde props işlemleri için this.props.attributename olarak erişilir.
 
 
@@ -27,23 +28,23 @@ import React, { Component } from 'react'
         console.log("Burası");
         console.log(code);
         const {isVisible} = this.state;
+
+        
         return (
-            <div className="col-md-12">
+            <div className="col-md-12 ">
                 <div className="card" >
-                    <div className="card-header d-flex justify-context-between" style={{height:30}} onClick={this.onClickEvent.bind(this)}>
+                    <div className="card-header d-flex justify-context-between" style={{height:30,minWidth:100}} onClick={this.onClickEvent.bind(this)}>
                         <p style={{marginTop:-15}} className="d-inline">{name}</p>
                     </div>
                     {
                         isVisible?
                         <div className="card-body" style={{overflowY:"scroll",height:"20vh"}}>
-                            <ul className="content">
                                 {code.map(codes=>
-                                    <li>
-                                        <span draggable="true" class="au-target" au-target-id="67" data-code="pages()">{codes}</span>
-                                        <span class="fa fa-question tpd-hideOnClickOutside au-target" au-target-id="69" title=""></span>
-                                    </li>
+                                    <div className="col-md-12" style={{height:20}}>
+                                        <span draggable="true" class="au-target"  au-target-id="67"  data-code="pages()">{codes}</span>
+                                        <span class="fa fa-question tpd-hideOnClickOutside au-target"  au-target-id="69" title=""></span>
+                                    </div>
                                 )}
-                            </ul>
                         </div>:null
                     }
                     

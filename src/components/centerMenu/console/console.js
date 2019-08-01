@@ -27,8 +27,8 @@ class console extends Component {
                         <span onClick={this.onClickEvent.bind(this)} className="fas fa-caret-square-down"></span>
                     }
                     
-                       <a href="javascript:void(0)" class="console-title-button au-target btn tip mode with-icon bottomMode console selected" au-target-id="131"><span class="title fa fa-terminal"></span> <span class="title au-target" t="ui.bottombar.console_button" au-target-id="132">Konsol</span> </a>
-                       <a  href="javascript:void(0)"   class="console-title-button au-target btn tip mode with-icon bottomMode breakpoints" au-target-id="133"><span class="title fab fa-flickr"></span> <span class="title au-target" t="ui.bottombar.breakpoints_button" au-target-id="134">Kesim Noktaları</span> </a>
+                       <a href="javascript:void(0)" class="console-title-button1 au-target btn tip mode with-icon bottomMode console selected" au-target-id="131"><span class="title fa fa-terminal"></span> <span class="title au-target" t="ui.bottombar.console_button" au-target-id="132">Konsol</span> </a>
+                       <a  href="javascript:void(0)"   class="console-title-button2 au-target btn tip mode with-icon bottomMode breakpoints" au-target-id="133"><span class="title fab fa-flickr"></span> <span class="title au-target" t="ui.bottombar.breakpoints_button" au-target-id="134">Kesim Noktaları</span> </a>
                 
                     </div>
                    

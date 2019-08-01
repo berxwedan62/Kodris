@@ -12,6 +12,13 @@ mode-bar a.project-name {
     -webkit-transition: width 1s !important;
     transition: width .5s, background .3s !important;
 }
+
+input{
+    background-color: dimgrey;
+    height: 34px;
+    border: none;
+}
+
 mode-bar a.mode {
     padding: 0px 10px;
     margin: 0px;
