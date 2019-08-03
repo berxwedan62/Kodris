@@ -1,4 +1,10 @@
 import React, {Component} from "react"
+import PrintCodeItem from "./components/centerMenu/codeItemComponents/printCodeItem"
+import AlertCodeItem from "./components/centerMenu/codeItemComponents/alertCodeItem"
+import ConfirmCodeItem from "./components/centerMenu/codeItemComponents/confirmCodeItem"
+import PromptCodeItem from "./components/centerMenu/codeItemComponents/promptCodeItem"
+import PageCodeItem from "./components/centerMenu/codeItemComponents/pageCodeItem"
+import PagesCodeItem from "./components/centerMenu/codeItemComponents/pagesCodeItem"
 
 const ProjectContext = React.createContext();
 //Provider, Consumer
@@ -10,38 +16,12 @@ export class ProjectProvider extends React.Component{
             id:1,
             name:"Genel Komutlar",
             codes:[
-                "print",
-                "alert",
-                "confirm",
-                "prompt",
-                "page",
-                "pages",
-                "openpage",
-                "abs",
-                "all",
-                "any",
-                "bin",
-                "cmp",
-                "chr",
-                "filter",
-                "hex",
-                "in",
-                "iterable",
-                "len",
-                "map",
-                "max",
-                "min",
-                "mixin",
-                "range",
-                "reduce",
-                "reversed",
-                "sorted",
-                "sum",
-                "zip",
-                "getattr",
-                "setattr",
-                "hasattr",
-                "eq"
+                <PrintCodeItem>Print</PrintCodeItem>,
+                <AlertCodeItem>Alert</AlertCodeItem>,
+                <ConfirmCodeItem>Confirm</ConfirmCodeItem>,
+                <PromptCodeItem>Prompt</PromptCodeItem>,
+                <PageCodeItem>Page</PageCodeItem>,
+                <PagesCodeItem>Pages</PagesCodeItem>
             ]
           },
           {

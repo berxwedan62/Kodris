@@ -13,9 +13,10 @@ import ProjectConsumer from "../../../context";
                     const {code} = value;
                     console.log(code);
                     return(
-                        <div>
+                        <div className="col-md-12">
                              {
                                 code.map(code => {
+                                    console.log(code);
                                    return(
                                     <Code
                                     key={code.id}

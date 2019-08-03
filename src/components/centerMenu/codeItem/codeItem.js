@@ -31,25 +31,26 @@ import "./codeItem.css"
 
         
         return (
-            <div className="col-md-12 ">
+            
                 <div className="card" >
                     <div className="card-header d-flex justify-context-between" style={{height:30,minWidth:100}} onClick={this.onClickEvent.bind(this)}>
                         <p style={{marginTop:-15}} className="d-inline">{name}</p>
                     </div>
                     {
                         isVisible?
-                        <div className="card-body" style={{overflowY:"scroll",height:"20vh"}}>
+                        <div className="card-body" style={{overflowY:"scroll",height:"20vh",paddingLeft:0}}>
+                           <ul className="col-md-12" style={{height:20}}>
                                 {code.map(codes=>
-                                    <div className="col-md-12" style={{height:20}}>
-                                        <span draggable="true" class="au-target"  au-target-id="67"  data-code="pages()">{codes}</span>
-                                        <span class="fa fa-question tpd-hideOnClickOutside au-target"  au-target-id="69" title=""></span>
+                                    <div>
+                                        {codes}
                                     </div>
                                 )}
+                            </ul>
                         </div>:null
                     }
                     
                 </div>
-            </div>
+           
         )
     }
 }
