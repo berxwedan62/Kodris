@@ -51,3 +51,10 @@ h2{
     cursor: pointer;
     transition: 0.3s;
 }
+
+.left-menu-div{
+    min-height: 200px;
+    max-height: 400px;
+    overflow-y: scroll;
+    padding-left:0;
+}

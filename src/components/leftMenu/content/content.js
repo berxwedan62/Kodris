@@ -5,7 +5,7 @@ class content extends Component {
     render() {
         return (
             <div>
-                <div className="col-md-12">
+                <div className="col-md-12 left-menu-div">
                     <h2>Kodris Developer Proje Sihirbazı'na Hoş Geldin</h2>
                     <p>
                         Merhaba bugün Kodris Developer ile ilk uygulamamızı yapacağız. Yapacağımız uygulama basit bir konsol uygulaması olacak ve programlamaya yeni başlayan herkesin yaptığı ilk uygulama gibi bize Merhaba Dünya diyecek.

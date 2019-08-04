@@ -25,8 +25,6 @@ import "./codeItem.css"
     }*/
     render() {
         const {name,code}= this.props; //İlk olarak liste eşleştirme yöntemi Destructuring
-        console.log("Burası");
-        console.log(code);
         const {isVisible} = this.state;
 
         
