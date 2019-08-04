@@ -14,7 +14,12 @@ class baseComponent extends React.Component{
     }
 
     onclickevent() {
-        alert(this.dataCode);
+      var isDefienAceIdentifier = document.getElementsByClassName('ace_identifier')[0];
+      debugger;
+      if (!isDefienAceIdentifier)
+        document.getElementsByClassName('ace_line')[0].innerHTML="<span class=\"ace_identifier\"></span>";
+
+      document.getElementsByClassName('ace_identifier')[0].innerText += this.dataCode ;      
     }
 
      render(){
