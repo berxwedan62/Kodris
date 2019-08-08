@@ -17,16 +17,32 @@
     min-height: 31px;
 }
 
-.task{
+.task1{
     
     line-height: 18px;
     border-radius: 0;
     margin-right: 1px;
     min-width: 150px;
-    min-height: 100px;
     cursor: default;
     pointer-events: none;
     user-select: none;
+    height: 27px;
+    margin-left: 1px;
+}
+span.fa{
+    color: #56bb7c;
+    
+}
+
+.exercise-bar{
+    height: 33px;
+    text-align: center;
+    background: #cfd8dc;
+    margin: auto;
+   
+}
+
+a{
     padding: 0px 10px;
     margin: 0px;
     line-height: 22px;
@@ -40,20 +56,8 @@
     text-align: center;
     background: #fff;
     color: #828789;
+    
 }
-.taskButton{
-    padding: 0px 10px;
-    margin: 0px;
-    line-height: 22px;
-    vertical-align: top;
-    height: 27px;
-    margin-top: 3px;
-    border-radius: 5px;
-    width: auto;
-    opacity: 0.8;
-    transition: 0.3s;
-    text-align: center;
-    background: #fff;
-    color: #828789;
-}
+
+
 

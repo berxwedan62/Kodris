@@ -47,3 +47,11 @@ a.btn {
 .pull-left {
     float: left;
 }
+
+.komut{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    line-height: 31px;
+    margin-left: 6px;
+}

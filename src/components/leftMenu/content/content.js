@@ -23,9 +23,9 @@ class content extends Component {
                 </div>
                 <div className="current col-md-12">
                     <div className="container">
-                        <div className="row">
+                        <div className="row copyright">
                             <div className="col-sm-1">
-                                <span className="au-target fa fa-arrow-right col-md-1" au-target-id="212"></span>
+                                <span style={{fontSize:"100%"}} className="au-target fa fa-arrow-right col-md-1" au-target-id="212"></span>
                             </div>
                             <div className="col-sm-8">
                                 <span  className="col-sm-12 task" au-target-id="213"><code>print("Merhaba Dünya")</code> kodunu ekleyelim.</span>
@@ -37,11 +37,11 @@ class content extends Component {
                     </div>
                 </div>
 
-                <div className="current col-md-12">
+                <div id="run-info" className="current col-md-12">
                     <div className="container">
-                        <div className="row">
+                        <div className="row copyright">
                             <div className="col-sm-1">
-                                <span className="au-target fa fa-lock" au-target-id="212"></span>
+                                <span style={{fontSize:"100%"}} className="au-target fa fa-lock" au-target-id="212"></span>
                             </div>
                             <div className="col-sm-10">
                                 <span  className="col-sm-12 task" au-target-id="213">	Çalıştır butonuna basıp uygulamamızı deneyelim.<br/>Uygulama çalıştığında konsoldaki "Merhaba Dünya" ifadesini görmelisin.</span>                         

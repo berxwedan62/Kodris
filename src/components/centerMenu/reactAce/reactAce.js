@@ -1,22 +1,35 @@
 import React, { Component } from 'react'
 import ReactAce from "react-ace"
-
+import "./reactAce.css"
+import ProjectConsumer from "../../../context";
 class reactAce extends Component{
     
     render(){
         return(
-            <div className="col-md-7" style={{borderStyle:"ridge"}}>
-                <ReactAce
-                    mode="java"
-                    theme="github"
-                    onChange={this.onChange}
-                    name="UNIQUE_ID_OF_DIV"
-                    value="dsfsdfsd"
-                    editorProps={{
-                        $blockScrolling: true
-                    }}
-                />
-            </div>
+            <ProjectConsumer>
+            {
+                value => {
+                    const {aceEditorValue} = value;
+                    console.log(aceEditorValue);
+                    return(
+                        <div className="col-md-7" style={{borderStyle:"ridge"}}>
+                            <ReactAce className="col-md-12 aceEditor" style={{height:"40vh",width:"300px"}}
+                                mode="java"
+                                theme="github"
+                                onChange={this.onChange}
+                                name="UNIQUE_ID_OF_DIV"
+                                value={aceEditorValue}
+                                editorProps={{
+                                    $blockScrolling: true
+                                }}
+                            />
+                        </div>
+                    )
+                }
+            }
+
+            </ProjectConsumer>
+            
         )
     }
 }

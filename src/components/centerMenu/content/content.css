@@ -4,4 +4,5 @@
     padding-right: 0;
     overflow-y: scroll;
     height: 400px;
+    min-width: 220px;
 }

@@ -10,11 +10,12 @@ class App extends React.Component{
     
     render(){
         return(
-            <div className="col-md-12 row">
-                <MainHeader/>
-                <LeftMenu/>
-                <CenterMenu/>
-                <RightMenu/>
+            <div className="row" >
+                    <MainHeader/>
+                    <LeftMenu/>
+                    <CenterMenu/>
+                    <RightMenu/>
+                
                 {
                     /* 
                     <Router> 

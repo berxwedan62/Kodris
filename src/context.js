@@ -9,6 +9,19 @@ import PagesCodeItem from "./components/centerMenu/codeItemComponents/pagesCodeI
 const ProjectContext = React.createContext();
 //Provider, Consumer
 
+const reducer = (state,action) =>{
+    switch(action.type){
+      case "ON_CLICK_CODE_BUTTON":
+        return{
+          ...state,
+          aceEditorValue : action.payload
+        }
+      default:
+        return state;
+    }
+
+}
+
 export class ProjectProvider extends React.Component{
     state = {
         code:[
@@ -75,7 +88,12 @@ export class ProjectProvider extends React.Component{
 
             ]
           }
-        ]
+        ],
+        aceEditorValue:"11111111",
+        isCodeItemClicked :false,
+        dispatch: action =>{
+          this.setState(state => reducer(state,action))
+        }
       }
     render(){
         return(

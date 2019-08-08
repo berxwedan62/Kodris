@@ -1,3 +1,14 @@
 .rigth-header-btn {
     font-size: 15px;
 }
+
+.header-div{
+    background-color: #cfd8dc;
+}
+
+.left-side{
+    float: left;
+}
+.right-side{
+    float: right;
+}

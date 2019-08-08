@@ -7,7 +7,7 @@ import "./leftMenu.css"
 class leftMenu extends Component {
     render() {
         return (
-            <div className="col-md-4 left-div">
+            <div className="col-md-4 left-div" style={{minWidth:"550px"}}>
                 <Header/>
                 <Content/>
             </div>

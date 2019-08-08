@@ -8,7 +8,7 @@ import BaseComponent from "./baseComponent"
  class confirmCodeItem extends BaseComponent {
     constructor(props){
         super(props);
-        this.setProperty(67,"coonfirm(......)","coonfirm",69);
+        this.setProperty(67,"confirm(......)","confirm",69);
       }
 
 }

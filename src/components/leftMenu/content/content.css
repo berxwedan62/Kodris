@@ -14,10 +14,12 @@ h2{
     border-radius: 5px;
     margin-bottom: 5px;
     padding: 2px 0;
-    height: 71px;
+    height: 40px;
 }
 
-
+#run-info.current{
+    height: 60px; 
+}
 
 .au-target{
     margin-top: 3px;
@@ -54,7 +56,9 @@ h2{
 
 .left-menu-div{
     min-height: 200px;
-    max-height: 400px;
+    max-height: 490px;
     overflow-y: scroll;
     padding-left:0;
+    height: 490px;
 }
+
