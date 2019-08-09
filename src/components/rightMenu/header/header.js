@@ -7,7 +7,7 @@ class header extends Component {
         return (
             <div className="col-md-12 row header-div" style={{height:"5vh",marginLeft:"1px",minHeight:"50px"}} >
                 <preview-bar className="au-target " au-target-id="184">
-                    <a className="col-md-2 btn mode with-icon  circle pull-left start run-circle au-target " au-target-id="41">
+                    <a className="col-md-3 btn mode with-icon  circle pull-left start run-circle au-target " au-target-id="41">
                         <i class="fas fa-chevron-circle-right" style={{color:"green",fontSize:"19px"}}><span style={{color:"#333",fontSize:"23px",verticalAlign:"middle",backgroundColor:"#fff"}}>ÇALIŞTIR</span></i>
                     </a>
                     <a title="Devam..." className="col-md-1 btn mode with-icon pull-left merge-right continue au-target disabled" au-target-id="45">
@@ -26,7 +26,7 @@ class header extends Component {
                     <a title="Mobil Olarak Görüntüle"  className="col-md-1 right-side  au-target btn mode with-icon merge-right preview-mode mobile" au-target-id="53">
                         <span className="title fa fa-mobile fa-xs rigth-header-btn"></span>
                     </a>
-                    <a title="Sayfalar" className="col-md-1 right-side  au-target btn mode pages" au-target-id="48">
+                    <a title="Sayfalar" className="col-md-2 right-side  au-target btn mode pages" au-target-id="48">
                         <span className="title rigth-header-btn">sayfa1</span>
                         <span className="title fa fa-caret-down fa-xs rigth-header-btn"></span>
                     </a>
