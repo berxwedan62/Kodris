@@ -2,6 +2,7 @@ h2{
     font-size: 14px;
     margin-top: 5px;
     margin-bottom: 10px;
+    margin-left: 15px;
 }
 
 .current {
@@ -62,3 +63,10 @@ h2{
     height: 490px;
 }
 
+.span-font{
+    font-size: 100%;
+}
+
+p{
+    margin-left: 15px;
+}

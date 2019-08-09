@@ -31,13 +31,13 @@ import "./codeItem.css"
         return (
             
                 <div className="card" >
-                    <div className="card-header d-flex justify-context-between" style={{height:30,minWidth:100}} onClick={this.onClickEvent.bind(this)}>
-                        <p style={{marginTop:-15}} className="d-inline">{name}</p>
+                    <div className="card-header d-flex justify-context-between card-header-div" onClick={this.onClickEvent.bind(this)}>
+                        <p className="d-inline">{name}</p>
                     </div>
                     {
                         isVisible?
-                        <div className="card-body" style={{overflowY:"scroll",height:"20vh",paddingLeft:0}}>
-                           <ul className="col-md-12" style={{height:20}}>
+                        <div className="card-body card-body-div">
+                           <ul className="col-md-12">
                                 {code.map(codes=>
                                     <div>
                                         {codes}

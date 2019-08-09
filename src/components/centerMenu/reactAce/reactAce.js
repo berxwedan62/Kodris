@@ -12,8 +12,8 @@ class reactAce extends Component{
                     const {aceEditorValue} = value;
                     console.log(aceEditorValue);
                     return(
-                        <div className="col-md-7" style={{borderStyle:"ridge"}}>
-                            <ReactAce className="col-md-12 aceEditor" style={{height:"40vh",width:"300px"}}
+                        <div className="col-md-7 ace-div">
+                            <ReactAce className="col-md-12 aceEditor ace"
                                 mode="java"
                                 theme="github"
                                 onChange={this.onChange}

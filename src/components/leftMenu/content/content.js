@@ -5,7 +5,7 @@ class content extends Component {
     render() {
         return (
             <div>
-                <div className="col-md-12 left-menu-div">
+                <div className="col-md-12 left-menu-div current">
                     <h2>Kodris Developer Proje Sihirbazı'na Hoş Geldin</h2>
                     <p>
                         Merhaba bugün Kodris Developer ile ilk uygulamamızı yapacağız. Yapacağımız uygulama basit bir konsol uygulaması olacak ve programlamaya yeni başlayan herkesin yaptığı ilk uygulama gibi bize Merhaba Dünya diyecek.
@@ -24,8 +24,8 @@ class content extends Component {
                 <div className="current col-md-12">
                     <div className="container">
                         <div className="row copyright">
-                            <div className="col-sm-1">
-                                <span style={{fontSize:"100%"}} className="au-target fa fa-arrow-right col-md-1" au-target-id="212"></span>
+                            <div className="col-sm-1 span-font">
+                                <span className="au-target fa fa-arrow-right col-md-1" au-target-id="212"></span>
                             </div>
                             <div className="col-sm-8">
                                 <span  className="col-sm-12 task" au-target-id="213"><code>print("Merhaba Dünya")</code> kodunu ekleyelim.</span>
@@ -41,7 +41,7 @@ class content extends Component {
                     <div className="container">
                         <div className="row copyright">
                             <div className="col-sm-1">
-                                <span style={{fontSize:"100%"}} className="au-target fa fa-lock" au-target-id="212"></span>
+                                <span className="au-target fa fa-lock span-font" au-target-id="212"></span>
                             </div>
                             <div className="col-sm-10">
                                 <span  className="col-sm-12 task" au-target-id="213">	Çalıştır butonuna basıp uygulamamızı deneyelim.<br/>Uygulama çalıştığında konsoldaki "Merhaba Dünya" ifadesini görmelisin.</span>                         
