@@ -7,7 +7,7 @@ import "./rightMenu.css"
 class rightMenu extends Component {
     render() {
         return (
-            <div className="col-md-4 right-div">
+            <div className="right-div">
                 <Header/>
                 <Content/>
             </div>

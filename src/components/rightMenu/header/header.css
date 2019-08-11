@@ -2,13 +2,47 @@
     font-size: 15px;
 }
 
+[class*="col-"] {padding-left:0;padding-right:0}
+.row {margin-left:0;margin-right:0}
+
+/* container adjusted */
+.container-fluid {width:100%;max-width:none;padding:0;}
+
 .header-div{
     background-color: #cfd8dc;
 }
 
 .left-side{
     float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color:darkgray;
+    margin-left: 2px;
+    text-align: center;
+    background-color:#fff;
 }
 .right-side{
     float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color:darkgray;
+    height: 40px;
+    top: 5px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    margin-left: 6px;
+}
+
+.exercise-bar{
+    height: 23px;
+    text-align: center;
+    background: #fff;
+    margin: 1px;
+
+   
+}
+
+.beetwen-component{
+    margin-left: -2px;
 }

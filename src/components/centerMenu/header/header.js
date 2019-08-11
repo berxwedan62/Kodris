@@ -25,16 +25,16 @@ class header extends Component {
                 </mode-bar>
                 <br/>
                 <mode-bar class="au-target col-md-12 row" au-target-id="183">
-                    <div className="modebar col-md-4" style={{marginBottom:"10px"}}>
+                    <div className="modebar col-md-4" style={{marginBottom:"10px",width:"40%"}}>
                         <span className="title pull-left komut">KOMUTLAR</span><a style={{height:"24px"}}  class="btn pull-left tip mode with-icon left-icon leftClose au-target" href="javascript:void(0)" au-target-id="63" title="Gizle"><span className="fa fa-caret-left" style={{fontSize:"20px",color:"White"}}></span> </a><i class="fa fa-file-text-o"></i>
                     </div>
 
-                    <div className=" col-md-4" style={{padding:"5px"}}>
+                    <div className=" col-md-4" style={{padding:"5px",width:"20%"}}>
                         <i class='far fa-file-alt' style={{fontSize:"24px",color:"#d7d7d8"}}> sayfa1</i>
                     </div>
 
-                    <div className=" col-md-4" style={{padding:"5px"}}>
-                    <a style={{float:"right",fontWeight:"bold"}} className="btn tip  mode au-target selected"  href="javascript:void(0)"  au-target-id="39"><span className="title au-target" t="ui.modebar.export_button" style={{fontSize:"15px",color:"White"}} au-target-id="40">FARKLI KAYDET</span> <i style={{fontSize:"16px",color:"White"}} class="far fa-share-square"></i></a>
+                    <div className=" col-md-4" style={{padding:"5px",width:"40%"}}>
+                    <a style={{float:"right",fontWeight:"bold"}} className="btn tip  mode au-target selected"  href="javascript:void(0)"  au-target-id="39"><span className="title au-target" t="ui.modebar.export_button" style={{fontSize:"15px",color:"White"}} au-target-id="40">KAYDET</span> <i style={{fontSize:"16px",color:"White"}} class="far fa-share-square"></i></a>
                     </div>
                     
                 </mode-bar>

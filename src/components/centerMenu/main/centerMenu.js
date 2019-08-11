@@ -7,7 +7,7 @@ import "./centerMenu.css"
 class centerMenu extends Component {
     render() {
         return (
-            <div className="col-md-4 center-div">
+            <div className="center-div">
                 <Header/>
                 <Content/>
             </div>

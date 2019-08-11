@@ -12,6 +12,7 @@ const ProjectContext = React.createContext();
 const reducer = (state,action) =>{
     switch(action.type){
       case "ON_CLICK_CODE_BUTTON":
+        debugger;
         return{
           ...state,
           aceEditorValue : action.payload
@@ -89,9 +90,10 @@ export class ProjectProvider extends React.Component{
             ]
           }
         ],
-        aceEditorValue:"11111111",
+        aceEditorValue:"",
         isCodeItemClicked :false,
         dispatch: action =>{
+          action.payload = this.state.aceEditorValue != ""? this.state.aceEditorValue +"\n"+ action.payload : action.payload ;
           this.setState(state => reducer(state,action))
         }
       }

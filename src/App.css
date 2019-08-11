@@ -1,0 +1,5 @@
+[class*="col-"] {padding-left:0;padding-right:0}
+.row {margin-left:0;margin-right:0}
+
+/* container adjusted */
+.container {width:100%;max-width:none;padding:0;}

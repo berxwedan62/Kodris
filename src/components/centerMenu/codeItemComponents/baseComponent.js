@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import "../codeItem/codeItem.css"
 import ProjectConsumer from "../../../context";
+import "../codeItemComponentCss/base.css"
 class baseComponent extends React.Component{
     constructor(props){
       super(props);
@@ -28,10 +29,10 @@ class baseComponent extends React.Component{
                   console.log(isCodeItemClicked);
                   return(
                     <li>
-                        <span onClick={this.onclickevent.bind(this,dispatch)} className="au-target col-md-9"  au-target-id={this.targetId} data-code={this.dataCode} style={{float:"left"}}>
+                        <span onClick={this.onclickevent.bind(this,dispatch)} style={{fontSize:"13px"}} className="au-target col-md-9 code-span"  au-target-id={this.targetId} data-code={this.dataCode}>
                               {this.props.children} 
                           </span> 
-                          <span style={{float:"right"}} className="fa fa-question tpd-hideOnClickOutside au-target" au-target-id={this.helperTargetId} title={this.helperTitle}></span>
+                          <span className="fa fa-question tpd-hideOnClickOutside au-target code-helper" au-target-id={this.helperTargetId} title={this.helperTitle}></span>
                     </li>
                   )
               }

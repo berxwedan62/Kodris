@@ -34,6 +34,15 @@ span.fa{
     
 }
 
+.task-button{
+    border-style: solid;
+    border-width: 1px;
+    border-color:darkgray;
+    margin-left: 2px;
+    text-align: center;
+    background-color:#fff;
+}
+
 .exercise-bar{
     height: 33px;
     text-align: center;
@@ -58,6 +67,8 @@ a{
     color: #828789;
     
 }
+
+
 
 
 

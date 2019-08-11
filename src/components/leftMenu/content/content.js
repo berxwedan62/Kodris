@@ -25,7 +25,7 @@ class content extends Component {
                     <div className="container">
                         <div className="row copyright">
                             <div className="col-sm-1 span-font">
-                                <span className="au-target fa fa-arrow-right col-md-1" au-target-id="212"></span>
+                                <span className="au-target fa fa-arrow-right col-md-1 span-font" au-target-id="212"></span>
                             </div>
                             <div className="col-sm-8">
                                 <span  className="col-sm-12 task" au-target-id="213"><code>print("Merhaba Dünya")</code> kodunu ekleyelim.</span>

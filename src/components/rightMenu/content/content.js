@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class content extends Component {
     render() {
         return (
-            <div className="col-md-12 row" >
+            <div id="denemee" className="col-md-12 row" style={{backgroundColor:"white"}} >
                 MERHABA DÜNYA KONSOL UYGULAMASI
             </div>
         )

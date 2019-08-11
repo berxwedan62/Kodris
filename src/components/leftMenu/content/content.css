@@ -15,7 +15,7 @@ h2{
     border-radius: 5px;
     margin-bottom: 5px;
     padding: 2px 0;
-    height: 40px;
+    height: auto;
 }
 
 #run-info.current{
@@ -64,9 +64,13 @@ h2{
 }
 
 .span-font{
-    font-size: 100%;
+    font-size:x-large !important;
 }
 
 p{
     margin-left: 15px;
+}
+
+.margin-top{
+    margin-top: 10px;
 }
