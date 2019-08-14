@@ -48,7 +48,8 @@ span.fa{
     text-align: center;
     background: #cfd8dc;
     margin: auto;
-   
+   background-color: #CFD8DC !important;
+   height: 35px !important;
 }
 
 a{
@@ -68,7 +69,9 @@ a{
     
 }
 
-
+.margin{
+    margin-left: 25% !important;
+}
 
 
 

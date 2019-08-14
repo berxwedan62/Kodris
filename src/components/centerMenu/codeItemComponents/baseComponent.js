@@ -29,10 +29,10 @@ class baseComponent extends React.Component{
                   console.log(isCodeItemClicked);
                   return(
                     <li>
-                        <span onClick={this.onclickevent.bind(this,dispatch)} style={{fontSize:"13px"}} className="au-target col-md-9 code-span"  au-target-id={this.targetId} data-code={this.dataCode}>
+                        <span onClick={this.onclickevent.bind(this,dispatch)} className="au-target col-md-9 code-span"  au-target-id={this.targetId} data-code={this.dataCode}>
                               {this.props.children} 
                           </span> 
-                          <span className="fa fa-question tpd-hideOnClickOutside au-target code-helper" au-target-id={this.helperTargetId} title={this.helperTitle}></span>
+                          <span className="fa fa-question tpd-hideOnClickOutside au-target code-helper" style={{color:"black"}} au-target-id={this.helperTargetId} title={this.helperTitle}></span>
                     </li>
                   )
               }

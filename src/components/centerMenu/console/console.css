@@ -17,12 +17,32 @@
 }
 
 .console-title-button2{
-    background-color:black;
-    width: 15vh;
+    background-color:transparent;
+    width: auto !important;
 }
 
 .console-title-button1{
-    background-color:black;
+    background-color:transparent;
     width: 15vh;
+}
+
+.title-text{
+    color: white !important;
+    font-size: 17px !important;
+}
+
+.title-icon{
+    font-size: 15px;
+    color: white;
+}
+
+.console-button-div{
+    bottom: 15px;
+    background-color: transparent;
+}
+
+.fa-caret-span{
+    font-size: 30px;
+    color:white;
 }
 

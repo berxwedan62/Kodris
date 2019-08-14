@@ -16,12 +16,12 @@ class header extends Component {
         return (
             <div className="mode-bar">
                 <mode-bar class="au-target col-md-12" au-target-id="183">
-                    <a title="Projelerime Dön" className="btn tip mode pull-left to-dashboard au-target"  au-target-id="33" href="#/"><i style={{fontSize:"16px"}} class="fas fa-arrow-left"></i></a>
-                    <input type="text" style={{color:"#ebf1f1",fontFamily:"'Open Sans', sans-serif",fontWeight:"bold",fontSize:"small"}}  className="pull-left" value={this.state.value} onChange={this.handleChange} name="projectName"></input> 
-                    <a title="Projenize bir isim verin!" className="btn mode with-icon pull-left circle" href="javascript:void(0)"><i class="fas fa-pen" style={{fontSize:"16px"}}></i></a>
+                    <a title="Projelerime Dön" className="btn tip mode pull-left to-dashboard au-target"  au-target-id="33" href="#/"><i class="fas fa-arrow-left fontsize"></i></a>
+                    <input type="text" className="pull-left" value={this.state.value} onChange={this.handleChange} name="projectName"></input> 
+                    <a title="Projenize bir isim verin!" className="btn mode with-icon pull-left circle" href="javascript:void(0)"><i class="fas fa-pen fontsize"></i></a>
                     
-                    <a style={{float:"right",fontWeight:"bold"}} className="btn tip mode au-target selected" href="javascript:void(0)" id="mode-code" au-target-id="37"><span className="title au-target" t="ui.modebar.code_button" style={{fontSize:"13px",color:"White"}} au-target-id="38">KOD</span> </a>
-                    <a style={{float:"right",fontWeight:"bold"}} className="btn tip mode au-target"  href="javascript:void(0)"  id="mode-design" au-target-id="35"><span className="title au-target" t="ui.modebar.design_button" au-target-id="36"  style={{fontSize:"13px",color:"White"}}>TASARIM</span> </a>
+                    <a className="btn tip mode au-target selected btn-tip-font" href="javascript:void(0)" id="mode-code" au-target-id="37"><span className="title au-target" t="ui.modebar.code_button" style={{fontSize:"13px",color:"White"}} au-target-id="38">KOD</span> </a>
+                    <a className="btn tip mode au-target btn-tip-font"  href="javascript:void(0)"  id="mode-design" au-target-id="35"><span className="title au-target" t="ui.modebar.design_button" au-target-id="36"  style={{fontSize:"13px",color:"White"}}>TASARIM</span> </a>
                 </mode-bar>
                 <br/>
                 <mode-bar class="au-target col-md-12 row" au-target-id="183">

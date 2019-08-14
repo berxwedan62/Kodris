@@ -46,3 +46,19 @@
 .beetwen-component{
     margin-left: -2px;
 }
+
+.black{
+    color:black !important;
+}
+
+.run-button{
+    color: green !important;
+    font-size: 19px !important;
+}
+
+.run-button-text{
+    color: #333 !important;
+    font-size: 18px !important;
+    vertical-align: center !important;
+}
+

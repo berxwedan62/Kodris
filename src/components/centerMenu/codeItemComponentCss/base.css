@@ -1,5 +1,12 @@
 .code-span{
     float: left;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ec7c67;
+    color: white !important;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 50%;
 }
 
 .code-helper{

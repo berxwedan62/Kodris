@@ -13,7 +13,7 @@ class reactAce extends Component{
                     console.log(aceEditorValue);
                     return(
                         <div className="col-md-7 ace-div">
-                            <ReactAce className="col-md-12 aceEditor ace" style={{height:"315px"}}
+                            <ReactAce className="col-md-12 aceEditor ace"
                                 mode="java"
                                 theme="github"
                                 onChange={this.onChange}
