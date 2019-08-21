@@ -23,6 +23,12 @@ const reducer = (state,action) =>{
             ...state,
             deviceTool : action.payload
           }
+      case "ON_CHANGE_ACE_EDITOR":
+        debugger;
+        return{
+          ...state,
+          deviceTool : action.payload
+        }
       default:
         return state;
     }

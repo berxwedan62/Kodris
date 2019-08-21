@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import ReactAce from "react-ace"
+import 'brace/mode/javascript'
 import "./reactAce.css"
 import ProjectConsumer from "../../../context";
 class reactAce extends Component{
     
     render(){
+        
         return(
             <ProjectConsumer>
             {
@@ -22,6 +24,7 @@ class reactAce extends Component{
                                 editorProps={{
                                     $blockScrolling: true
                                 }}
+                                mode="javascript" 
                             />
                         </div>
                     )

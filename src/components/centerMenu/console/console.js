@@ -30,7 +30,7 @@ class console extends Component {
                     </div>
                     
                     <div className="col-md-3 col-sm-3 console-button-div">
-                         <a href="javascript:void(0)"  class="console-title-button1  au-target btn tip mode with-icon bottomMode console selected" au-target-id="131"><span  class="title fa fa-terminal title-icon"></span> <span class="title au-target title-text" t="ui.bottombar.console_button " au-target-id="132">Konsol</span> </a>
+                         <a href="javascript:void(0)"  class="console-title-button1  au-target btn tip mode with-icon bottomMode console selected" au-target-id="131"><span  class="title fa fa-terminal title-icon title-text"></span> <span class="title au-target title-text" t="ui.bottombar.console_button " au-target-id="132">Konsol</span> </a>
                      
                     </div >
                     <div className="col-md-6 col-sm-6 console-button-div">
