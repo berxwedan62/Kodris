@@ -10,6 +10,7 @@
     padding-left:inherit;
     padding-right:inherit;
     min-width: 200px;
+    height: 70px;
 }
 
 .console-content{
@@ -18,12 +19,14 @@
 
 .console-title-button2{
     background-color:transparent;
-    width: auto !important;
+    width: auto !important; 
+    margin-top: 16px;
 }
 
 .console-title-button1{
     background-color:transparent;
     width: 15vh;
+    margin-top: 16px;
 }
 
 .title-text{
@@ -44,5 +47,6 @@
 .fa-caret-span{
     font-size: 30px;
     color:white;
+    margin-top: 16px;
 }
 

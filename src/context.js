@@ -12,22 +12,19 @@ const ProjectContext = React.createContext();
 const reducer = (state,action) =>{
     switch(action.type){
       case "ON_CLICK_CODE_BUTTON":
-        debugger;
         return{
           ...state,
           aceEditorValue : action.payload
         }
       case "ON_CLICK_DEVICE_TOOL_BUTTON":
-          debugger;
           return{
             ...state,
             deviceTool : action.payload
           }
       case "ON_CHANGE_ACE_EDITOR":
-        debugger;
         return{
           ...state,
-          deviceTool : action.payload
+          aceEditorValue : action.payload
         }
       default:
         return state;
@@ -109,6 +106,8 @@ export class ProjectProvider extends React.Component{
           debugger;
           if(action.type == "ON_CLICK_CODE_BUTTON")
             action.payload = this.state.aceEditorValue != ""? this.state.aceEditorValue +"\n"+ action.payload : action.payload ;
+          else if(action.type == "ON_CHANGE_ACE_EDITOR")     
+            action.payload = action.payload ;       
           else 
             action.payload = action.payload ;
             this.setState(state => reducer(state,action))

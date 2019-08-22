@@ -33,7 +33,7 @@ class header extends Component {
                         <i class='far fa-file-alt' style={{fontSize:"24px",color:"#d7d7d8"}}> sayfa1</i>
                     </div>
 
-                    <div className=" col-md-4" style={{padding:"5px",width:"40%"}}>
+                    <div className=" col-md-4" style={{width:"40%"}}>
                     <a style={{float:"right",fontWeight:"bold"}} className="btn tip  mode au-target selected"  href="javascript:void(0)"  au-target-id="39"><span className="title au-target" t="ui.modebar.export_button" style={{fontSize:"15px",color:"White"}} au-target-id="40">KAYDET</span> <i style={{fontSize:"16px",color:"White"}} class="far fa-share-square"></i></a>
                     </div>
                     
