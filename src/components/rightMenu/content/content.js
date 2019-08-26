@@ -14,7 +14,7 @@ class content extends Component {
                         <div>
                             {
                                 deviceTool == "desktop"?
-                                <div id="denemee" className="col-md-12">
+                                <div id="denemee" className="col-md-12 background-device">
                                         MERHABA DÜNYA KONSOL UYGULAMASI
                                 </div>
                                 :
