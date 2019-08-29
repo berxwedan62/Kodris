@@ -16,7 +16,6 @@ import ProjectConsumer from "../../../context";
                         <div className="col-md-12">
                              {
                                 code.map(code => {
-                                    console.log(code);
                                    return(
                                     <Code
                                     key={code.id}

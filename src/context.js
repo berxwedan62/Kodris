@@ -14,7 +14,16 @@ const reducer = (state,action) =>{
       case "ON_CLICK_CODE_BUTTON":
         return{
           ...state,
-          aceEditorValue : action.payload
+          aceEditorValue : action.payload,
+          isCodeItemClicked:true,
+          isCodeItemDragged:false
+        }
+      case "ON_DRAG_CODE_BUTTON":
+        return{
+          ...state,
+          aceEditorValue : action.payload,
+          isCodeItemClicked:false,
+          isCodeItemDragged:true
         }
       case "ON_CLICK_DEVICE_TOOL_BUTTON":
           return{
@@ -25,6 +34,11 @@ const reducer = (state,action) =>{
         return{
           ...state,
           aceEditorValue : action.payload
+        }
+      case "ON_CODE_COMPONENT":
+        return{
+          ...state,
+          code : action.payload
         }
       default:
         return state;
@@ -101,13 +115,18 @@ export class ProjectProvider extends React.Component{
         ],
         aceEditorValue:"",
         isCodeItemClicked :false,
+        isCodeItemDragged :false,
         deviceTool:"desktop",
         dispatch: action =>{
           debugger;
           if(action.type == "ON_CLICK_CODE_BUTTON")
             action.payload = this.state.aceEditorValue != ""? this.state.aceEditorValue +"\n"+ action.payload : action.payload ;
+          else if(action.type == "ON_DRAG_CODE_BUTTON")     
+          action.payload = this.state.aceEditorValue != ""? this.state.aceEditorValue +"\n"+ action.payload : action.payload ; 
           else if(action.type == "ON_CHANGE_ACE_EDITOR")     
-            action.payload = action.payload ;       
+            action.payload = action.payload ;    
+          else if(action.type == "ON_CODE_COMPONENT")     
+            action.payload = action.payload ;   
           else 
             action.payload = action.payload ;
             this.setState(state => reducer(state,action))
