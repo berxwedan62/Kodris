@@ -9,7 +9,7 @@
     "react-ace-editor": "0.0.3",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-simple-drag-n-drop": "^1.0.4"
   },
   "scripts": {
